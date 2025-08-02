@@ -1,0 +1,30 @@
+{
+  "name": "electrostore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-deps": "npm install && cd backend && npm install && cd ../frontend && npm install --legacy-peer-deps",
+    "start": "npm run dev",
+    "seed": "cd backend && node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce",
+    "electronics",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "ElectroStore Team",
+  "license": "MIT",
+  "description": "Electronic Appliances E-commerce Website - MERN Stack",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

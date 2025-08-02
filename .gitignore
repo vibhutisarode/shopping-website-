@@ -1,0 +1,322 @@
+# MERN Stack E-commerce Website - ElectroStore
+# Comprehensive .gitignore for Node.js backend and React frontend
+
+# ===============================
+# Node.js & Backend Dependencies
+# ===============================
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Backend specific
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Frontend specific
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ===============================
+# Environment Variables & Config
+# ===============================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# Backend environment files
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ===============================
+# Build Outputs & Distribution
+# ===============================
+
+# React build output
+frontend/build/
+frontend/dist/
+
+# Backend build output (if using TypeScript)
+backend/build/
+backend/dist/
+
+# General build directories
+build/
+dist/
+
+# Static file serving directories
+public/uploads/
+backend/uploads/
+uploads/
+
+# ===============================
+# Logs & Runtime Files
+# ===============================
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===============================
+# Database & Cache
+# ===============================
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB data (if using local MongoDB)
+data/
+mongodb/
+
+# Redis dump file
+dump.rdb
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# ===============================
+# React Specific
+# ===============================
+
+# React Hot Loader
+.hot-update.json
+.hot-update.js
+
+# Create React App
+frontend/.eslintcache
+.eslintcache
+
+# Testing
+frontend/coverage/
+
+# ===============================
+# Package Managers
+# ===============================
+
+# npm
+package-lock.json
+npm-shrinkwrap.json
+
+# Yarn
+yarn.lock
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-debug.log*
+
+# ===============================
+# Editor & IDE Files
+# ===============================
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# WebStorm/IntelliJ
+.idea/
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===============================
+# Operating System Files
+# ===============================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# Security & Sensitive Files
+# ===============================
+
+# API keys and secrets
+config/keys.js
+config/prod.js
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# JWT secrets
+jwt-secret.txt
+
+# ===============================
+# Deployment & Production
+# ===============================
+
+# Heroku
+.env.production
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# Docker
+.dockerignore
+Dockerfile.dev
+
+# ===============================
+# Framework Specific
+# ===============================
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# ===============================
+# Temporary & Miscellaneous
+# ===============================
+
+# Temporary folders
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.tmp
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional npm cache directory
+.npm
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Storybook build outputs
+.out
+.storybook-out
+node_modules
+node_modules
+node_modules
+node_modules
