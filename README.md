@@ -57,18 +57,7 @@ cd backend
 npm install
 ```
 
-3. Create a `.env` file based on `.env.example`:
-```bash
-cp .env.example .env
-```
 
-4. Update the environment variables in `.env`:
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/electrostore
-JWT_SECRET=your-super-secret-jwt-key
-CLIENT_URL=http://localhost:3000
-```
 
 5. Start the development server:
 ```bash
